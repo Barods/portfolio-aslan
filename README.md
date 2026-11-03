@@ -2,11 +2,10 @@
 
 A responsive, single-page portfolio website.
 
-## Publish with GitHub Pages
+## Live site
 
-1. Create a **public** repository named `portfolio` under the GitHub account `Barods`.
-2. Push this folder to the repository's `main` branch.
-3. In the repository, open **Settings → Pages** and set the build and deployment source to **GitHub Actions**.
-4. The workflow deploys `index.html` automatically. After it finishes, the site will be available at <https://barods.github.io/portfolio/>.
+<https://barods.github.io/portfolio-aslan/>
 
-The workflow can also be started manually from the repository's **Actions** tab.
+## Deployment
+
+GitHub Pages is configured to deploy automatically with GitHub Actions whenever changes are pushed to the `main` branch. The workflow is defined in `.github/workflows/pages.yml`.
