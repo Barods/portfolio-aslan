@@ -542,7 +542,7 @@
           grid-template-columns: 1fr;
           gap: 2rem;
           min-height: 0;
-          padding-block: 3.5rem 7rem;
+          padding-block: calc(3.5rem + var(--hero-circle-size) + 2rem) 7rem;
         }
 
         .hero::after {
@@ -551,10 +551,6 @@
           transform: translateX(50%);
           width: var(--hero-circle-size);
           opacity: 0.7;
-        }
-
-        .hero-content {
-          grid-row: 2;
         }
 
         .profile-frame {
